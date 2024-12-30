@@ -1,4 +1,4 @@
-package ex;
+package ex.rectangle;
 
 public class RectangleMain {
 

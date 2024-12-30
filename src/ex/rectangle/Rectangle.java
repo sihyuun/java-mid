@@ -1,6 +1,4 @@
-package ex;
-
-import java.util.Objects;
+package ex.rectangle;
 
 public class Rectangle {
     private int width;
