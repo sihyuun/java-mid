@@ -1,4 +1,4 @@
-package etc.attackEx;
+package etc.attackEx1;
 
 public class Player {
 

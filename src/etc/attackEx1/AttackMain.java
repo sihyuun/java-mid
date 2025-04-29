@@ -1,4 +1,4 @@
-package etc.attackEx;
+package etc.attackEx1;
 
 public class AttackMain {
 
@@ -13,6 +13,8 @@ public class AttackMain {
             playerA.setHp( playerA.getHp() - playerB.getAttack() );
             playerB.setHp( playerB.getHp() - playerA.getAttack() );
        }
+        System.out.println("playerA.Hp = " + playerA.getHp());
+        System.out.println("playerB.Hp = " + playerB.getHp());
     }
 
 }

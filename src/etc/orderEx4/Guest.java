@@ -3,25 +3,25 @@ package etc.orderEx4;
 public class Guest {
 
     int money;
-    String option;
-    public Guest(int money, String option) {
+    int quantity;
+    public Guest(int money, int quantity) {
         this.money = money;
-        this.option = option;
+        this.quantity = quantity;
     }
 
     public int getMoney() {
         return money;
     }
 
-    public String getOption() {
-        return option;
+    public int getQuantity() {
+        return quantity;
     }
 
     public void setMoney(int money) {
         this.money = money;
     }
 
-    public void setOption(String option) {
-        this.option = option;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 }
